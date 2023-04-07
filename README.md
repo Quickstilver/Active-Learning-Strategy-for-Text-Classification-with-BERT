@@ -1,6 +1,8 @@
 # Active Learning Strategy for Text Classification with BERT
 
-This project demonstrates an innovative active learning strategy for text classification tasks, which combines selecting novel examples and instances for which the model is uncertain. The strategy calculates prediction entropy on already labeled data to identify examples where the model is most uncertain and then uses prediction entropy again as a strategy for the unlabeled pool. The model is updated using both query results on the unlabeled pool and on the example in which the model was most uncertain. BERT is utilized as the underlying model for this strategy.
+This project demonstrates an innovative active learning strategy for text classification tasks, which combines selecting novel examples and instances for which the model is uncertain.
+The strategy calculates prediction entropy on already labeled data to identify examples where the model is most uncertain and then uses prediction entropy again as a strategy for the unlabeled pool. The model is updated using both query results on the unlabeled pool and on the example in which the model was most uncertain.
+BERT is utilized as the underlying model for this strategy.
 
 ## Project Highlights:
 
